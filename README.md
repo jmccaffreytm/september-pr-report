@@ -1,14 +1,9 @@
-Here's the complete HTML code for your PR report with the favicon included:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PR Report - September 2025 | Intelligent Lending</title>
-    <link rel="icon" type="image/png" href="intelligent-lending-group-header.png">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
     <style>
         * {
@@ -18,23 +13,13 @@ Here's the complete HTML code for your PR report with the favicon included:
         }
         
         body {
-            font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #08051C;
             background: #FFE27C;
-        }
-        
-        .header {
-            padding: 0;
-            background: transparent;
-        }
-        
-        .header img {
-            width: 100%;
-            max-width: 1200px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
+            background-image: 
+                repeating-linear-gradient(45deg, transparent, transparent 2px, rgba(255,255,255,.03) 2px, rgba(255,255,255,.03) 4px),
+                repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(0,0,0,.02) 2px, rgba(0,0,0,.02) 4px);
         }
         
         .container {
@@ -80,26 +65,29 @@ Here's the complete HTML code for your PR report with the favicon included:
             transform: scale(1.05);
         }
         
-        .stat-box:hover .stat-number {
-            font-size: 3rem;
-        }
-        
-        .stat-box:hover .stat-label {
-            font-size: 1rem;
-        }
-        
         .stat-number {
             font-size: 2.5rem;
             font-weight: 700;
             display: block;
-            transition: font-size 0.3s ease;
         }
         
         .stat-label {
             font-size: 0.9rem;
             opacity: 0.9;
             margin-top: 0.5rem;
-            transition: font-size 0.3s ease;
+        }
+        
+        .brand-row {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+        
+        .brand-row .stat-box {
+            flex: 1;
+            min-width: 150px;
         }
         
         .brand-section {
@@ -109,6 +97,12 @@ Here's the complete HTML code for your PR report with the favicon included:
             margin-bottom: 2rem;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             border-left: 4px solid #261A91;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .brand-section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
         }
         
         .brand-header {
@@ -143,22 +137,16 @@ Here's the complete HTML code for your PR report with the favicon included:
         
         .content-block li {
             padding: 0.5rem 0;
-            padding-left: 1.5rem;
+            padding-left: 2rem;
             position: relative;
         }
         
         .content-block li:before {
             content: "→";
             position: absolute;
-            left: 0;
+            left: 0.5rem;
             color: #261A91;
             font-weight: 700;
-        }
-        
-        .content-block img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
         }
         
         .coverage-link {
@@ -185,16 +173,6 @@ Here's the complete HTML code for your PR report with the favicon included:
             margin-bottom: 0.3rem;
         }
         
-        .incomplete-notice {
-            background: #A3F4FF;
-            border-left: 4px solid #A3F4FF;
-            padding: 1rem;
-            margin: 1rem 0;
-            border-radius: 4px;
-            font-style: italic;
-            color: #08051C;
-        }
-        
         @media (max-width: 768px) {
             .stats-grid {
                 grid-template-columns: 1fr;
@@ -203,14 +181,14 @@ Here's the complete HTML code for your PR report with the favicon included:
     </style>
 </head>
 <body>
-    <div class="header">
-        <img src="intelligent-lending-group-header.png" alt="Intelligent Lending Group">
-    </div>
-    
     <div class="container">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <img src="https://github.com/user-attachments/assets/d4e8a5f5-3c9e-4f4a-8e5e-9f9f9f9f9f9f" alt="Intelligent Lending Brand Logos" style="max-width: 100%; height: auto;">
+        </div>
+        
         <div class="summary-card">
             <h2>⭐ September PR Update ⭐</h2>
-            <p>Here's our new look PR update, built with the help of our friend Claude. The top section covers the overall performance, and further down we share what we've been up to with each of the brands within the group.</p>
+            <p>October has come around fast, and so here's our September performance. This starts with a look across the group, with individual breakdown for each of the five brands.</p>
             
             <div class="stats-grid">
                 <div class="stat-box">
@@ -227,7 +205,7 @@ Here's the complete HTML code for your PR report with the favicon included:
                 </div>
             </div>
             
-            <div class="stats-grid" style="margin-top: 1rem;">
+            <div class="brand-row">
                 <div class="stat-box" style="background: linear-gradient(135deg, #170F57 0%, #261A91 100%);">
                     <span class="stat-number">34</span>
                     <span class="stat-label">CredAbility</span>
@@ -244,7 +222,7 @@ Here's the complete HTML code for your PR report with the favicon included:
                     <span class="stat-number">2</span>
                     <span class="stat-label">binq</span>
                 </div>
-                <div class="stat-box" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                <div class="stat-box" style="background: linear-gradient(135deg, #3A5B8C 0%, #2E4A73 100%);">
                     <span class="stat-number">262</span>
                     <span class="stat-label">thinkmoney</span>
                 </div>
@@ -253,167 +231,20 @@ Here's the complete HTML code for your PR report with the favicon included:
             <div style="margin: 2rem 0;">
                 <canvas id="prChart" style="max-height: 400px;"></canvas>
             </div>
-            
-            <script>
-                const ctx = document.getElementById('prChart').getContext('2d');
-                
-                const data = {
-                    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'],
-                    datasets: [
-                        {
-                            label: 'TotallyMoney',
-                            data: [104, 154, 575, 71, 34, 45, 48, 212, 230],
-                            backgroundColor: '#1e3a8a',
-                            borderColor: '#1e3a8a',
-                            borderWidth: 0
-                        },
-                        {
-                            label: 'Ocean',
-                            data: [103, 26, 344, 511, 26, 203, 121, 565, 236],
-                            backgroundColor: '#0ea5e9',
-                            borderColor: '#0ea5e9',
-                            borderWidth: 0
-                        },
-                        {
-                            label: 'thinkmoney',
-                            data: [0, 0, 0, 0, 0, 0, 0, 0, 262],
-                            backgroundColor: '#f59e0b',
-                            borderColor: '#f59e0b',
-                            borderWidth: 0
-                        },
-                        {
-                            label: 'CredAbility',
-                            data: [41, 26, 384, 70, 21, 33, 64, 32, 34],
-                            backgroundColor: '#7c3aed',
-                            borderColor: '#7c3aed',
-                            borderWidth: 0
-                        },
-                        {
-                            label: 'binq',
-                            data: [0, 0, 0, 0, 0, 0, 0, 14, 2],
-                            backgroundColor: '#10b981',
-                            borderColor: '#10b981',
-                            borderWidth: 0
-                        },
-                        {
-                            label: 'Total',
-                            data: [248, 206, 1303, 652, 81, 281, 233, 823, 764],
-                            type: 'line',
-                            backgroundColor: 'transparent',
-                            borderColor: '#f97316',
-                            borderWidth: 3,
-                            pointRadius: 0,
-                            pointHoverRadius: 6,
-                            tension: 0.4,
-                            yAxisID: 'y1'
-                        }
-                    ]
-                };
-
-                const config = {
-                    type: 'bar',
-                    data: data,
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: true,
-                        interaction: {
-                            mode: 'index',
-                            intersect: false,
-                        },
-                        plugins: {
-                            legend: {
-                                position: 'bottom',
-                                labels: {
-                                    usePointStyle: true,
-                                    padding: 15,
-                                    font: {
-                                        size: 12,
-                                        family: "'Open Sans', sans-serif"
-                                    }
-                                }
-                            },
-                            tooltip: {
-                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
-                                padding: 12,
-                                titleFont: {
-                                    size: 13,
-                                    family: "'Open Sans', sans-serif"
-                                },
-                                bodyFont: {
-                                    size: 12,
-                                    family: "'Open Sans', sans-serif"
-                                }
-                            }
-                        },
-                        scales: {
-                            x: {
-                                grid: {
-                                    display: false
-                                },
-                                ticks: {
-                                    font: {
-                                        size: 11,
-                                        family: "'Open Sans', sans-serif"
-                                    }
-                                }
-                            },
-                            y: {
-                                type: 'linear',
-                                display: true,
-                                position: 'left',
-                                beginAtZero: true,
-                                max: 700,
-                                ticks: {
-                                    stepSize: 100,
-                                    font: {
-                                        size: 11,
-                                        family: "'Open Sans', sans-serif"
-                                    }
-                                },
-                                grid: {
-                                    color: '#e5e5e5'
-                                }
-                            },
-                            y1: {
-                                type: 'linear',
-                                display: true,
-                                position: 'right',
-                                beginAtZero: true,
-                                max: 1400,
-                                ticks: {
-                                    stepSize: 200,
-                                    font: {
-                                        size: 11,
-                                        family: "'Open Sans', sans-serif"
-                                    }
-                                },
-                                grid: {
-                                    drawOnChartArea: false
-                                }
-                            }
-                        },
-                        barPercentage: 0.9,
-                        categoryPercentage: 0.8
-                    }
-                };
-
-                new Chart(ctx, config);
-            </script>
         </div>
 
-        <!-- binq Section -->
         <div class="brand-section">
             <div class="brand-header">
                 <h2 class="brand-name">🤖 binq 🤖</h2>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">🔝 Top Level</h3>
+                <h3 class="section-title">📝 Top Level</h3>
                 <p>A quieter month with binq - focused on other work, and prepared for Eleanor joining the team.</p>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">✍️ Press Releases</h3>
+                <h3 class="section-title">✏️ Press Releases</h3>
                 <ul>
                     <li>Comment on inflation</li>
                     <li>Comment on Bank of England MPC meeting/rates</li>
@@ -438,14 +269,13 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
         </div>
 
-        <!-- CredAbility Section -->
         <div class="brand-section">
             <div class="brand-header">
                 <h2 class="brand-name">💳 CredAbility 💳</h2>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">🔝 Top Level</h3>
+                <h3 class="section-title">📝 Top Level</h3>
                 <ul>
                     <li>Cross-team collaboration: Held calls with Social and User Research teams to align on messaging, tone, and consumer insight.</li>
                     <li>AI spotlight: Used AI tools to pick up recurring keywords (e.g. "credit score drops", "credit card fees", "how to improve credit fast"), summarise breaking financial news, and analyse consumer sentiment around credit scores and borrowing.</li>
@@ -453,7 +283,7 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">✍️ Press Releases</h3>
+                <h3 class="section-title">✏️ Press Releases</h3>
                 <ul>
                     <li>21 million Brits surprised by their credit score - why now is best time to check</li>
                     <li>AI tells Brits to cancel direct debits and skip insurance - the advice to avoid</li>
@@ -475,28 +305,19 @@ Here's the complete HTML code for your PR report with the favicon included:
                     <span class="coverage-source">Daily Mirror</span>
                     One-question test could save you from debt, money expert explains spending types
                 </a>
-                <a href="https://www.manchestereveningnews.co.uk/news/cost-of-living/premium-bonds-customers-need-invest-32485579" target="_blank" class="coverage-link">
-                    <span class="coverage-source">Manchester Evening News</span>
-                    Premium Bonds customers need to invest this amount for good chance of winning
-                </a>
-                <a href="https://www.gbnews.com/money/scam-ai-money-avoid-fraud" target="_blank" class="coverage-link">
-                    <span class="coverage-source">GB News</span>
-                    Scam alert: 1/3 of Britons ready to let AI handle their money despite 'red flags' - how to avoid fraud
-                </a>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">📅 October Plans</h3>
                 <ul>
-                    <li>Credit score survey insights: The most expensive mistake you can make with a credit card - 15 million (28%) Brits are guilty. Regional breakdown: London most likely to withdraw cash on credit; Southeast and Southwest most savvy</li>
-                    <li>6.6 million (12%) want to improve their score to secure lower borrowing rates - "How to improve credit score to get quicker loan approvals and lower interest rates"</li>
-                    <li>Autumn Budget countdown: Release focused on what consumers should be watching for one month out</li>
+                    <li>Credit score survey insights: The most expensive mistake you can make with a credit card - 15 million (28%) Brits are guilty</li>
+                    <li>6.6 million (12%) want to improve their score to secure lower borrowing rates</li>
+                    <li>Autumn Budget countdown: Release focused on what consumers should be watching</li>
                     <li>Ongoing journalist requests and reactive opportunities</li>
                 </ul>
             </div>
         </div>
 
-        <!-- Luv Section -->
         <div class="brand-section">
             <div class="brand-header">
                 <h2 class="brand-name">💙 Luv 💙</h2>
@@ -508,14 +329,13 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
         </div>
 
-        <!-- Ocean Section -->
         <div class="brand-section">
             <div class="brand-header">
                 <h2 class="brand-name">🌊 Ocean 🌊</h2>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">🔝 Top Level</h3>
+                <h3 class="section-title">📝 Top Level</h3>
                 <ul>
                     <li>Launch of Life Insurance: Introduced Affordable Life cover, aimed at making protection more accessible for UK households.</li>
                     <li>Cross-team collaboration: Worked closely with Product and Data & Analytics teams to generate richer insights that shaped press angles and product messaging.</li>
@@ -524,7 +344,7 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">✍️ Press Releases</h3>
+                <h3 class="section-title">✏️ Press Releases</h3>
                 <ul>
                     <li>Ocean Finance launches "Affordable Life" cover from just 60p a month</li>
                     <li>Expert reveals move that could slash bills by £300 before October price cap</li>
@@ -544,18 +364,6 @@ Here's the complete HTML code for your PR report with the favicon included:
                     <span class="coverage-source">GB News</span>
                     Parents urged to take action as summer debt costs 'gripping millions of families' - five tips to boost your savings
                 </a>
-                <a href="https://www.msn.com/en-gb/news/newsbirmingham/tesco-sainsbury-s-aldi-lidl-and-asda-shoppers-face-275-rise-in-food-prices/ar-AA1LDtAL" target="_blank" class="coverage-link">
-                    <span class="coverage-source">MSN</span>
-                    Tesco, Sainsbury's, Aldi, Lidl, and Asda shoppers face £275 rise in food prices
-                </a>
-                <a href="https://www.scottishdailyexpress.co.uk/lifestyle/food/scots-warned-one-common-shopping-35831827" target="_blank" class="coverage-link">
-                    <span class="coverage-source">Scottish Daily Express</span>
-                    Scots warned one common shopping habit comes with a hidden cost as food prices soar
-                </a>
-                <a href="https://www.dailystar.co.uk/news/latest-news/drivers-sent-dvla-letter-demanding-35956304" target="_blank" class="coverage-link">
-                    <span class="coverage-source">Daily Star</span>
-                    Drivers sent DVLA letter demanding £195 as they face significant rule change
-                </a>
             </div>
             
             <div class="content-block">
@@ -570,14 +378,13 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
         </div>
 
-        <!-- thinkmoney Section -->
         <div class="brand-section">
             <div class="brand-header">
-                <h2 class="brand-name">💰 thinkmoney 💰</h2>
+                <h2 class="brand-name">🧠 thinkmoney 🧠</h2>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">🔝 Top Level</h3>
+                <h3 class="section-title">📝 Top Level</h3>
                 <ul>
                     <li>First research campaign signed off and in the field with a follow up planned whilst also ensuring a speedy reactive programme to make a splash with mentions</li>
                     <li>Internal data process set up to feed quick-win stories with Zac Stott as well as establishing a cross-channel monthly meeting with product and working closely with social for channel launch</li>
@@ -588,7 +395,7 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">✍️ Press Outreach</h3>
+                <h3 class="section-title">✏️ Press Outreach</h3>
                 <ul>
                     <li>Appearance on LBC talking about ebay's 30th Anniversary</li>
                     <li>Appearance on BBC Radio Sheffield talking about the cost of university</li>
@@ -619,7 +426,7 @@ Here's the complete HTML code for your PR report with the favicon included:
                     Easing the cost of Christmas
                 </a>
                 <a href="#" class="coverage-link">
-                    <span class="coverage-source">i News</span>
+                    <span class="coverage-source">I News</span>
                     Why Amazon Fresh couldn't buy loyalty
                 </a>
                 <a href="#" class="coverage-link">
@@ -634,7 +441,7 @@ Here's the complete HTML code for your PR report with the favicon included:
             
             <div class="content-block">
                 <h3 class="section-title">📅 October Plans</h3>
-                <p>Two proactive press releases + always on commentary for news agenda:</p>
+                <p>Two proactive press releases + always on commentary for news agenda</p>
                 <ul>
                     <li>Release 1 of xmas campaign: Cost of Christmas and engagement of BNPL</li>
                     <li>Release 1 of Cashtastrophe campaign: How much do you actually need in your emergency pot based on real consumer insight</li>
@@ -645,23 +452,21 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
         </div>
 
-        <!-- TotallyMoney Section -->
         <div class="brand-section">
             <div class="brand-header">
                 <h2 class="brand-name">™️ TotallyMoney ™️</h2>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">🔝 Top Level</h3>
+                <h3 class="section-title">📝 Top Level</h3>
                 <p>Product landing page overhaul is in progress, with two going live this week (poor credit score cards, and balance transfers). This is a complete overhaul of all product pages.</p>
-                <ul>
-                    <li><a href="https://www.totallymoney.com/credit-cards/credit-cards-bad-credit/" target="_blank">Before example</a> - poor experience, little content, not much context, doesn't sell benefits, not optimised for SEO/search rankings</li>
-                    <li><a href="https://www.totallymoney.com/credit-cards/credit-cards-bad-credit/" target="_blank">After example</a> - full overhaul content and design overhaul, with more information and context, which is in line with Google's EEAT requirements (Experience, Expertise, Authoritativeness, and Trustworthiness)</li>
-                </ul>
+                
                 <p style="margin-top: 1rem;">With Claude AI, and a structured approach, I'm able to create the content for each page in a matter of hours, which is human-written, avoiding the creation of AI slop.</p>
                 
                 <div style="margin: 2rem 0; text-align: center;">
-                    <img src="image4-traffic-chart.png" alt="TotallyMoney Organic Traffic Performance" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
+                        <img src="https://i.imgur.com/traffic-chart.png" alt="TotallyMoney Organic Traffic Performance" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    </div>
                     <p style="font-size: 0.9rem; color: #3A384B; margin-top: 0.5rem; font-style: italic;">Organic traffic and referring domains performance</p>
                 </div>
                 
@@ -670,7 +475,7 @@ Here's the complete HTML code for your PR report with the favicon included:
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">✍️ Press Releases</h3>
+                <h3 class="section-title">✏️ Press Releases</h3>
                 <ul>
                     <li>Co-Op CASS offer comment</li>
                     <li>Lloyds CASS offer comment</li>
@@ -697,19 +502,25 @@ Here's the complete HTML code for your PR report with the favicon included:
                     6 banks offering up to £200 free cash in switching deals
                 </a>
                 
-                <div style="margin: 2rem 0;">
+                <div style="margin: 2rem 0; text-align: center;">
                     <p style="margin-bottom: 1rem;">Research from earlier in the year which looked at the high cost of overdrafts was covered on BBC You and Yours.</p>
-                    <img src="image3-bbc-you-and-yours.png" alt="BBC You and Yours Coverage" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
+                        <img src="https://i.imgur.com/bbc-you-and-yours.png" alt="BBC You and Yours Coverage" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    </div>
                 </div>
                 
-                <div style="margin: 2rem 0;">
+                <div style="margin: 2rem 0; text-align: center;">
                     <p style="margin-bottom: 1rem;">Jumping on the fact that four new CASS offers came onto the market in a week resulted in a half-pager in the Sunday Express.</p>
-                    <img src="image2-sunday-express.png" alt="Sunday Express - Switch it up and cash in" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
+                        <img src="https://i.imgur.com/sunday-express.png" alt="Sunday Express - Switch it up and cash in" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    </div>
                 </div>
                 
-                <div style="margin: 2rem 0;">
+                <div style="margin: 2rem 0; text-align: center;">
                     <p style="margin-bottom: 1rem;">Inbound request from Holly Mead resulted in a print mention in The Times.</p>
-                    <img src="image1-the-times.png" alt="The Times - The risks and downsides of unlimited contactless" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
+                        <img src="https://i.imgur.com/the-times.png" alt="The Times - The risks and downsides of unlimited contactless" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    </div>
                 </div>
             </div>
             
@@ -741,13 +552,162 @@ Here's the complete HTML code for your PR report with the favicon included:
         <div class="summary-card" style="text-align: center; margin-top: 3rem;">
             <p style="color: #3A384B; margin-bottom: 1rem;">Questions or feedback? Please get in touch with the PR team.</p>
             <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center;">
-                <a href="mailto:jmccaffrey@totallymoney.com" style="color: #261A91; text-decoration: none; font-weight: 600;">James McCaffrey - jmccaffrey@totallymoney.com</a>
                 <a href="mailto:alicia.boukersi@ocean.co.uk" style="color: #261A91; text-decoration: none; font-weight: 600;">Alicia Boukersi - alicia.boukersi@ocean.co.uk</a>
+                <a href="mailto:vix.leyton@thinkmoney.co.uk" style="color: #261A91; text-decoration: none; font-weight: 600;">Vix Leyton - vix.leyton@thinkmoney.co.uk</a>
+                <a href="mailto:jmccaffrey@totallymoney.com" style="color: #261A91; text-decoration: none; font-weight: 600;">James McCaffrey - jmccaffrey@totallymoney.com</a>
             </div>
         </div>
     </div>
+    
+    <script>
+        const ctx = document.getElementById('prChart').getContext('2d');
+        
+        const data = {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'],
+            datasets: [
+                {
+                    label: 'TotallyMoney',
+                    data: [104, 154, 575, 71, 34, 45, 48, 212, 230],
+                    backgroundColor: '#1e3a8a',
+                    borderColor: '#1e3a8a',
+                    borderWidth: 0
+                },
+                {
+                    label: 'Ocean',
+                    data: [103, 26, 344, 511, 26, 203, 121, 565, 236],
+                    backgroundColor: '#0ea5e9',
+                    borderColor: '#0ea5e9',
+                    borderWidth: 0
+                },
+                {
+                    label: 'CredAbility',
+                    data: [41, 26, 384, 70, 21, 33, 64, 32, 34],
+                    backgroundColor: '#7c3aed',
+                    borderColor: '#7c3aed',
+                    borderWidth: 0
+                },
+                {
+                    label: 'binq',
+                    data: [0, 0, 0, 0, 0, 0, 0, 14, 2],
+                    backgroundColor: '#10b981',
+                    borderColor: '#10b981',
+                    borderWidth: 0
+                },
+                {
+                    label: 'thinkmoney',
+                    data: [0, 0, 0, 0, 0, 0, 0, 0, 262],
+                    backgroundColor: '#3A5B8C',
+                    borderColor: '#3A5B8C',
+                    borderWidth: 0
+                },
+                {
+                    label: 'Total',
+                    data: [248, 206, 1303, 652, 81, 281, 233, 823, 764],
+                    type: 'line',
+                    backgroundColor: 'transparent',
+                    borderColor: '#f97316',
+                    borderWidth: 3,
+                    pointRadius: 0,
+                    pointHoverRadius: 6,
+                    tension: 0.4,
+                    yAxisID: 'y1'
+                }
+            ]
+        };
+
+        const config = {
+            type: 'bar',
+            data: data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                interaction: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '2025 Coverage',
+                        font: {
+                            size: 18,
+                            weight: 'bold'
+                        },
+                        padding: {
+                            bottom: 20
+                        }
+                    },
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            usePointStyle: true,
+                            padding: 15,
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        padding: 12,
+                        titleFont: {
+                            size: 13
+                        },
+                        bodyFont: {
+                            size: 12
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: {
+                            display: false
+                        },
+                        ticks: {
+                            font: {
+                                size: 11
+                            }
+                        }
+                    },
+                    y: {
+                        type: 'linear',
+                        display: true,
+                        position: 'left',
+                        beginAtZero: true,
+                        max: 700,
+                        ticks: {
+                            stepSize: 100,
+                            font: {
+                                size: 11
+                            }
+                        },
+                        grid: {
+                            color: '#e5e5e5'
+                        }
+                    },
+                    y1: {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        beginAtZero: true,
+                        max: 1400,
+                        ticks: {
+                            stepSize: 200,
+                            font: {
+                                size: 11
+                            }
+                        },
+                        grid: {
+                            drawOnChartArea: false
+                        }
+                    }
+                },
+                barPercentage: 0.9,
+                categoryPercentage: 0.8
+            }
+        };
+
+        new Chart(ctx, config);
+    </script>
 </body>
 </html>
-```
-
-Copy this entire code, save it as a `.html` file (e.g., `pr-report-september-2025.html`), and open it in your browser. Make sure all your image files are in the same folder!
