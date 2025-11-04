@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PR Report - September 2025 | Intelligent Lending</title>
+    <title>PR Report - October 2025 | Intelligent Lending</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
     <style>
         * {
@@ -16,10 +16,11 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #08051C;
-            background: #FFE27C;
+            background: #170F57;
             background-image: 
-                repeating-linear-gradient(45deg, transparent, transparent 2px, rgba(255,255,255,.03) 2px, rgba(255,255,255,.03) 4px),
-                repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(0,0,0,.02) 2px, rgba(0,0,0,.02) 4px);
+                radial-gradient(circle at 20% 50%, rgba(146, 140, 200, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(38, 26, 145, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(146, 140, 200, 0.1) 0%, transparent 40%);
         }
         
         .container {
@@ -173,6 +174,35 @@
             margin-bottom: 0.3rem;
         }
         
+        nav {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 20px;
+            z-index: 100;
+        }
+        
+        nav a {
+            color: #261A91;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background: #FFE27C;
+            transform: translateY(-2px);
+        }
+        
+        html {
+            scroll-padding-top: 120px;
+        }
+        
         @media (max-width: 768px) {
             .stats-grid {
                 grid-template-columns: 1fr;
@@ -183,93 +213,159 @@
 <body>
     <div class="container">
         <div style="text-align: center; margin-bottom: 2rem;">
-            <img src="https://github.com/user-attachments/assets/d4e8a5f5-3c9e-4f4a-8e5e-9f9f9f9f9f9f" alt="Intelligent Lending Brand Logos" style="max-width: 100%; height: auto;">
+            <h1 style="font-size: 3rem; font-weight: 700; color: white; margin: 0;">Intelligent Lending</h1>
         </div>
         
-        <div class="summary-card">
-            <h2>⭐ September PR Update ⭐</h2>
-            <p>October has come around fast, and so here's our September performance. This starts with a look across the group, with individual breakdown for each of the five brands.</p>
+        <nav>
+            <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                <a href="#summary">📊 Summary</a>
+                <a href="#binq">🤖 Binq</a>
+                <a href="#credability">💳 CredAbility</a>
+                <a href="#luv">💙 Luv</a>
+                <a href="#ocean">🌊 Ocean</a>
+                <a href="#totallymoney">™️ TotallyMoney</a>
+            </div>
+        </nav>
+        
+        <div class="summary-card" id="summary">
+            <h2>⭐ October PR Update ⭐</h2>
+            
+            <div style="text-align: left; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #261A91;">
+                <h3 style="font-size: 1.5rem; font-weight: 700; color: #170F57; margin-bottom: 1rem;">A Record-Breaking Month for Intelligent Lending PR</h3>
+                
+                <p style="margin-bottom: 1rem;">October delivered exceptional results across the Intelligent Lending portfolio, with nearly 1,340 pieces of coverage spanning 262 different outlets and 404 journalists - marking our strongest performance to date. The coverage breakdown demonstrates impressive reach: 138 mentions in the national press, 362 in regional outlets, and 740 in local publications.</p>
+                
+                <p style="margin-bottom: 1rem;">TotallyMoney dominated with an impressive 976 mentions, driven by strategic commentary on the surge of seven CASS offers hitting the market simultaneously, alongside our down-selling warning and balance transfer analysis that caught widespread media attention.</p>
+                
+                <p style="margin-bottom: 1rem;">The month saw significant recognition across our brands. CredAbility earned a nomination for Innovation in Consumer Finance at the MoneyAge awards, while Ocean was shortlisted for Credit Builder Card Provider of the Year. Both brands leveraged cross-team collaboration with User Research and Social teams to develop compelling case studies that resonated with journalists.</p>
+                
+                <p style="margin-bottom: 1rem;">Meanwhile, Binq made substantial progress on brand development, completing comprehensive tone of voice guidelines and brand language work that will shape how the business communicates across all channels.</p>
+                
+                <p style="margin-bottom: 1rem;">Key coverage highlights included The FCA referencing TotallyMoney's research in their car finance scandal analysis - a significant validation of our data-driven approach. Major placements spanned Daily Mail, The Independent, The Guardian, Daily Mirror, and The Express, with topics ranging from credit card interest-free periods and energy bill management to mobile phone bill reductions.</p>
+                
+                <p>Behind the scenes, progress continued on strategic initiatives. Luv's brand refresh and website rebuild moved forward with six key content pages completed, while TotallyMoney completed its comprehensive SEO overhaul of all credit card product pages. Looking ahead to November, the focus shifts to Autumn Budget analysis, Talk Money Week campaigns, and scam awareness pieces tied to Black Friday and Christmas shopping.</p>
+            </div>
             
             <div class="stats-grid">
                 <div class="stat-box">
-                    <span class="stat-number">764</span>
+                    <span class="stat-number">1,338</span>
                     <span class="stat-label">Total Mentions</span>
                 </div>
                 <div class="stat-box">
-                    <span class="stat-number">759</span>
+                    <span class="stat-number">1,298</span>
                     <span class="stat-label">Separate Articles</span>
                 </div>
                 <div class="stat-box">
-                    <span class="stat-number">5</span>
+                    <span class="stat-number">4</span>
                     <span class="stat-label">Active Brands</span>
                 </div>
             </div>
             
             <div class="brand-row">
                 <div class="stat-box" style="background: linear-gradient(135deg, #170F57 0%, #261A91 100%);">
-                    <span class="stat-number">34</span>
+                    <span class="stat-number">64</span>
                     <span class="stat-label">CredAbility</span>
                 </div>
                 <div class="stat-box" style="background: linear-gradient(135deg, #261A91 0%, #928CC8 100%);">
-                    <span class="stat-number">236</span>
+                    <span class="stat-number">298</span>
                     <span class="stat-label">Ocean</span>
                 </div>
                 <div class="stat-box" style="background: linear-gradient(135deg, #170F57 0%, #3A384B 100%);">
-                    <span class="stat-number">230</span>
+                    <span class="stat-number">976</span>
                     <span class="stat-label">TotallyMoney</span>
                 </div>
                 <div class="stat-box" style="background: linear-gradient(135deg, #928CC8 0%, #73738C 100%);">
-                    <span class="stat-number">2</span>
-                    <span class="stat-label">binq</span>
-                </div>
-                <div class="stat-box" style="background: linear-gradient(135deg, #3A5B8C 0%, #2E4A73 100%);">
-                    <span class="stat-number">262</span>
-                    <span class="stat-label">thinkmoney</span>
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Binq</span>
                 </div>
             </div>
+            
+            <h3 style="font-size: 1.8rem; font-weight: 700; color: #170F57; text-align: center; margin: 2rem 0 1.5rem 0;">2025 Coverage</h3>
             
             <div style="margin: 2rem 0;">
                 <canvas id="prChart" style="max-height: 400px;"></canvas>
             </div>
+            
+            <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <p style="font-size: 1.2rem; font-weight: 600; color: #170F57;">During 2025, the four active Intelligent Lending brands have received a total of <strong style="font-size: 1.4rem; color: #261A91;">5,667</strong> pieces of coverage.</p>
+            </div>
         </div>
 
-        <div class="brand-section">
+        <div class="brand-section" id="binq">
             <div class="brand-header">
-                <h2 class="brand-name">🤖 binq 🤖</h2>
+                <h2 class="brand-name">🤖 Binq 🤖</h2>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">📝 Top Level</h3>
-                <p>A quieter month with binq - focused on other work, and prepared for Eleanor joining the team.</p>
-            </div>
-            
-            <div class="content-block">
-                <h3 class="section-title">✏️ Press Releases</h3>
                 <ul>
-                    <li>Comment on inflation</li>
-                    <li>Comment on Bank of England MPC meeting/rates</li>
+                    <li>Brand language – spelling out the Binq principles, identifying and naming our brand purpose, creating straplines, writing boilerplate copy and nailing down the essentials of how we talk and write about our brand. As part of this, we did some competitor analysis.</li>
+                    <li>Binq Tone of Voice – identifying the correct tone for the brand and then creating a clear set of principles and guidelines for everyone to follow (including the AI) when they write as Binq. This will soon be shared with the wider Binq team.</li>
+                    <li>Suite of welcome letters - that will be sent out automatically to the customers at various stages in their journey through getting funding with Binq, including nudges to complete certain tasks, reminders of what Binq offers, hooks if they drop out and longer term value once the initial interaction has completed.</li>
+                    <li>PDF brochure - It will make it really clear to all potential customers what Binq can do for them and why we're a great choice.</li>
+                    <li>3 press comments on relevant business topics, and a CEO pitch to The Metro</li>
                 </ul>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">📅 October Plans</h3>
+                <h3 class="section-title">✏️ Press Comments</h3>
                 <ul>
                     <li>Energy switching / no price cap for businesses comment</li>
                     <li>Self-assessment registration deadline</li>
+                    <li>Autum Budget startup parent</li>
+                    <li>Tanyel Mustafa, The Metro/ looking to speak with SME owners</li>
                 </ul>
-                <p style="margin-top: 1rem;">Content Lead, Eleanor de Bruin has now started (29/09). Plans for the next month include:</p>
+            </div>
+            
+            <div class="content-block">
+                <h3 class="section-title">📰 Coverage Highlights</h3>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Birmingham Mail</span>
+                    HMRC imposes strict deadline 'you can't afford to miss'
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Manchester Evening News</span>
+                    HMRC sets strict Sunday deadline
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Devon Live</span>
+                    HMRC sets strict Sunday deadline for UK households
+                </a>
+            </div>
+            
+            <div style="margin: 2rem 0;">
+                <div style="position: relative; max-width: 900px; margin: 0 auto;">
+                    <div id="binqCarouselContainer" style="overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: white; position: relative; padding-bottom: 75%;">
+                        <div id="binqCarousel" style="display: flex; transition: transform 0.5s ease-in-out; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/yxKpr2Xb/binq-1.png" alt="Binq Coverage 1" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/yxTpqnvG/binq2.png" alt="Binq Coverage 2" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/prBcNkq6/binq3.png" alt="Binq Coverage 3" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="binqPrevBtn" style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%); background: white; border: 2px solid #261A91; border-radius: 50%; width: 45px; height: 45px; cursor: pointer; font-size: 24px; color: #261A91; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.2); z-index: 10;">‹</button>
+                    <button id="binqNextBtn" style="position: absolute; right: -50px; top: 50%; transform: translateY(-50%); background: white; border: 2px solid #261A91; border-radius: 50%; width: 45px; height: 45px; cursor: pointer; font-size: 24px; color: #261A91; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.2); z-index: 10;">›</button>
+                    
+                    <div id="binqDotsContainer" style="text-align: center; margin-top: 1.5rem; display: flex; gap: 10px; justify-content: center;"></div>
+                </div>
+            </div>
+            
+            <div class="content-block">
+                <h3 class="section-title">📅 November Plans</h3>
                 <ul>
-                    <li>Introducing her to the team</li>
-                    <li>Familiarise her with the industry and product</li>
-                    <li>Competitor review and analysis</li>
-                    <li>Start work on the tone of voice document</li>
-                    <li>Call with Jamie Grant to investigate SEO opportunities</li>
-                    <li>Develop a plan/structure for content creation and how we can use Chat GPT/Claude AI to boost output and productivity</li>
+                    <li>Create a suite of marketing emails to keep customers engaged and eventually a regular newsletter with more broader general interest items to add value for SMEs and boost our brand visibility.</li>
+                    <li>After an audit of the website, we've identified the next pages that we need in order to build the business. These are an 'About us' page, increased functionality for the guides, customer testimonials and a blog. We're busy creating content for these pages and will look forward to being able to launch them when we can. The blog content will be regularly updated and will feed into the monthly newsletter.</li>
                 </ul>
             </div>
         </div>
 
-        <div class="brand-section">
+        <div class="brand-section" id="credability">
             <div class="brand-header">
                 <h2 class="brand-name">💳 CredAbility 💳</h2>
             </div>
@@ -277,59 +373,105 @@
             <div class="content-block">
                 <h3 class="section-title">📝 Top Level</h3>
                 <ul>
-                    <li>Cross-team collaboration: Held calls with Social and User Research teams to align on messaging, tone, and consumer insight.</li>
-                    <li>AI spotlight: Used AI tools to pick up recurring keywords (e.g. "credit score drops", "credit card fees", "how to improve credit fast"), summarise breaking financial news, and analyse consumer sentiment around credit scores and borrowing.</li>
+                    <li>Attended MoneyAge awards – nominated for Innovation in Consumer Finance</li>
+                    <li>Cross-collaboration with User Research & Social teams – planning case studies and reviews to be used in PR</li>
                 </ul>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">✏️ Press Releases</h3>
                 <ul>
-                    <li>21 million Brits surprised by their credit score - why now is best time to check</li>
-                    <li>AI tells Brits to cancel direct debits and skip insurance - the advice to avoid</li>
-                    <li>The 1-question money personality test that could save you from debt</li>
+                    <li>Why your mortgage might be rejected and how to fix it</li>
+                    <li>One month until the Autumn Statement: 5 things every saver should check now</li>
+                    <li>New research reveals top five money myths costing Brits £100s every year</li>
+                    <li>Inflation pushes Brits back to 2008-style saving frenzy</li>
                 </ul>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">📰 Coverage Highlights</h3>
-                <a href="https://www.gbnews.com/money/inflation-unchanged-what-mean-pensions-mortgage-savings" target="_blank" class="coverage-link">
-                    <span class="coverage-source">GB News</span>
-                    Inflation remains unchanged: What does it mean for pensions, mortgage and savings?
-                </a>
-                <a href="https://londonlovesbusiness.com/16-million-brits-unknowingly-damaging-their-credit-scores/" target="_blank" class="coverage-link">
-                    <span class="coverage-source">London Business News</span>
-                    16 million Brits unknowingly damaging their credit scores
-                </a>
-                <a href="https://www.mirror.co.uk/money/one-question-test-could-save-35841558" target="_blank" class="coverage-link">
+                <a href="#" target="_blank" class="coverage-link">
                     <span class="coverage-source">Daily Mirror</span>
-                    One-question test could save you from debt, money expert explains spending types
+                    UK households warned make payment before November or 'there may be more tax'
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">MSN</span>
+                    Major inheritance tax change could be announced in November say experts
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">The Express</span>
+                    Warning for Lloyds, Halifax, Santander customers over £500 payments
                 </a>
             </div>
             
+            <div style="margin: 2rem 0;">
+                <div style="position: relative; max-width: 900px; margin: 0 auto;">
+                    <div id="credCarouselContainer" style="overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: white; position: relative; padding-bottom: 75%;">
+                        <div id="credCarousel" style="display: flex; transition: transform 0.5s ease-in-out; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/BZYN98g2/cred1.png" alt="CredAbility Coverage 1" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/L4CvKqTV/cred2.png" alt="CredAbility Coverage 2" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/J76KVyq5/cred3.png" alt="CredAbility Coverage 3" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/RCsG53RQ/cred4.png" alt="CredAbility Coverage 4" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="credPrevBtn" style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%); background: white; border: 2px solid #261A91; border-radius: 50%; width: 45px; height: 45px; cursor: pointer; font-size: 24px; color: #261A91; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.2); z-index: 10;">‹</button>
+                    <button id="credNextBtn" style="position: absolute; right: -50px; top: 50%; transform: translateY(-50%); background: white; border: 2px solid #261A91; border-radius: 50%; width: 45px; height: 45px; cursor: pointer; font-size: 24px; color: #261A91; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.2); z-index: 10;">›</button>
+                    
+                    <div id="credDotsContainer" style="text-align: center; margin-top: 1.5rem; display: flex; gap: 10px; justify-content: center;"></div>
+                </div>
+            </div>
+            
             <div class="content-block">
-                <h3 class="section-title">📅 October Plans</h3>
+                <h3 class="section-title">📅 November Plans</h3>
                 <ul>
-                    <li>Credit score survey insights: The most expensive mistake you can make with a credit card - 15 million (28%) Brits are guilty</li>
-                    <li>6.6 million (12%) want to improve their score to secure lower borrowing rates</li>
-                    <li>Autumn Budget countdown: Release focused on what consumers should be watching</li>
+                    <li>Autumn Budget - what Brits can expect, plus any early 2026 financial updates people should be aware of.</li>
+                    <li>"5 ways you're sabotaging your finances" - consumer-friendly piece.</li>
+                    <li>Borrowing in retirement - expert insights following the latest state pension news.</li>
+                    <li>Using our summer survey data revealing that one in three people who checked their credit report found a mistake.</li>
                     <li>Ongoing journalist requests and reactive opportunities</li>
                 </ul>
             </div>
         </div>
 
-        <div class="brand-section">
+        <div class="brand-section" id="luv">
             <div class="brand-header">
                 <h2 class="brand-name">💙 Luv 💙</h2>
             </div>
             
             <div class="content-block">
-                <p>Nothing on Luv this month. Announcement press release on pause until we're ready to let the outside world know.</p>
-                <p style="margin-top: 1rem;">When we're ready, I feel it would be good to tie the takeover in with the brand refresh, so it packs a bit more of a punch.</p>
+                <p>Brand refresh and website rebuild taking place. Working with the team to create all onsite content, including six of the following pages:</p>
+                <ul>
+                    <li>Homepage</li>
+                    <li>How car finance works ✅</li>
+                    <li>HP car finance ✅</li>
+                    <li>PCP car finance ✅</li>
+                    <li>Value my car</li>
+                    <li>Bad credit card finance ✅</li>
+                    <li>No deposit car finance ✅</li>
+                    <li>Refinance my car</li>
+                    <li>Car finance explained</li>
+                    <li>Business car finance ✅</li>
+                </ul>
+            </div>
+            
+            <div class="content-block">
+                <h3 class="section-title">📅 November Plans</h3>
+                <ul>
+                    <li>Create content for remaining pages</li>
+                </ul>
             </div>
         </div>
 
-        <div class="brand-section">
+        <div class="brand-section" id="ocean">
             <div class="brand-header">
                 <h2 class="brand-name">🌊 Ocean 🌊</h2>
             </div>
@@ -337,272 +479,216 @@
             <div class="content-block">
                 <h3 class="section-title">📝 Top Level</h3>
                 <ul>
-                    <li>Launch of Life Insurance: Introduced Affordable Life cover, aimed at making protection more accessible for UK households.</li>
-                    <li>Cross-team collaboration: Worked closely with Product and Data & Analytics teams to generate richer insights that shaped press angles and product messaging.</li>
-                    <li>AI-driven improvements: Using AI tools to speed up reactive comment turnaround and surface trend data faster</li>
+                    <li>Shortlisted for <strong>Credit Builder Card Provider of the Year</strong></li>
+                    <li>Cross-collaboration with User Research & Social teams – planning case studies and reviews to be used in PR</li>
                 </ul>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">✏️ Press Releases</h3>
                 <ul>
-                    <li>Ocean Finance launches "Affordable Life" cover from just 60p a month</li>
-                    <li>Expert reveals move that could slash bills by £300 before October price cap</li>
-                    <li>Two million pensioners risk losing £300 Winter Fuel Payment this September</li>
-                    <li>Brits face wave of energy bill scams this Autumn - how to protect your money</li>
-                    <li>Warning to UK families facing bills after record-breaking summer spending</li>
+                    <li>Energy bill rise pushes 1m UK households into arrears</li>
+                    <li>Experts warn unlimited contactless could fuel debt and fraud</li>
+                    <li>Brits can cut energy bills by changing the day they do the washing</li>
+                    <li>6 ways to afford Christmas on a budget</li>
                 </ul>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">📰 Coverage Highlights</h3>
-                <a href="https://ffnews.com/newsarticle/insurtech/39-of-parents-dont-have-life-insurance-ocean-finance-launches-affordable-life-cover-from-just-60p-a-month/" target="_blank" class="coverage-link">
-                    <span class="coverage-source">Fintech Finance News</span>
-                    39% of Parents Don't Have Life Insurance: Ocean Finance Launches "Affordable Life" Cover From Just 60p a Month
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Birmingham Live</span>
+                    Christmas 2025 shopping hacks with six smart ways to save money
                 </a>
-                <a href="https://www.gbnews.com/money/take-action-summer-debt-gripping-millions" target="_blank" class="coverage-link">
-                    <span class="coverage-source">GB News</span>
-                    Parents urged to take action as summer debt costs 'gripping millions of families' - five tips to boost your savings
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">The Guardian</span>
+                    Scam watch - Cut your energy bills by a third? No, these 'energy-saving plugs' will cause nothing but hassle
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Daily Mail</span>
+                    The 5 money questions you MUST ask your partner before having children, according to experts
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">MSN</span>
+                    UK households told day of the week they should be using washing machines to cut bills
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Daily Mirror</span>
+                    Expert says 250,000 Brits turning to illegal energy hacks
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Best Magazine</span>
+                    Full-page spread
                 </a>
             </div>
             
+            <div style="margin: 2rem 0;">
+                <div style="position: relative; max-width: 900px; margin: 0 auto;">
+                    <div id="oceanCarouselContainer" style="overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: white; position: relative; padding-bottom: 75%;">
+                        <div id="oceanCarousel" style="display: flex; transition: transform 0.5s ease-in-out; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/CL0M01LQ/o1.png" alt="Ocean Coverage 1" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/PrHfHx5s/o2.png" alt="Ocean Coverage 2" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                            <div style="min-width: 100%; box-sizing: border-box; height: 100%;">
+                                <img src="https://i.postimg.cc/MKwZwTpW/o3.png" alt="Ocean Coverage 3" style="width: 100%; height: 100%; display: block; object-fit: cover; object-position: center;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="oceanPrevBtn" style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%); background: white; border: 2px solid #261A91; border-radius: 50%; width: 45px; height: 45px; cursor: pointer; font-size: 24px; color: #261A91; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.2); z-index: 10;">‹</button>
+                    <button id="oceanNextBtn" style="position: absolute; right: -50px; top: 50%; transform: translateY(-50%); background: white; border: 2px solid #261A91; border-radius: 50%; width: 45px; height: 45px; cursor: pointer; font-size: 24px; color: #261A91; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.2); z-index: 10;">›</button>
+                    
+                    <div id="oceanDotsContainer" style="text-align: center; margin-top: 1.5rem; display: flex; gap: 10px; justify-content: center;"></div>
+                </div>
+            </div>
+            
             <div class="content-block">
-                <h3 class="section-title">📅 October Plans</h3>
+                <h3 class="section-title">📅 November Plans</h3>
                 <ul>
-                    <li>Data & Analytics insider data: exclusive look into the "surge in Brits wanting to rebuild credit"</li>
-                    <li>Debt consolidation release: Rise in energy prices leaves millions behind on bills</li>
-                    <li>Fraud prevention: What unlimited contactless payments could mean for your money</li>
-                    <li>Credit-builder card focused pieces e.g. cheapest way to afford Christmas</li>
+                    <li>Talk Money Week – how to talk about money and why it's so important.</li>
+                    <li>Scam awareness pieces including Black Friday & Christmas shopping scams, and the top celebrities used by scammers in 2025.</li>
+                    <li>Top 5 debt mistakes to avoid this winter – featuring advice and links to Debt Consolidation Loans page.</li>
+                    <li>Improve rather than move – the true cost of home renovations and how to budget, supported by our insider data showing a rise in home improvement loans.</li>
                     <li>Ongoing journalist requests and reactive opportunities</li>
                 </ul>
             </div>
         </div>
 
-        <div class="brand-section">
-            <div class="brand-header">
-                <h2 class="brand-name">🧠 thinkmoney 🧠</h2>
-            </div>
-            
-            <div class="content-block">
-                <h3 class="section-title">📝 Top Level</h3>
-                <ul>
-                    <li>First research campaign signed off and in the field with a follow up planned whilst also ensuring a speedy reactive programme to make a splash with mentions</li>
-                    <li>Internal data process set up to feed quick-win stories with Zac Stott as well as establishing a cross-channel monthly meeting with product and working closely with social for channel launch</li>
-                    <li>Supported Andy Leitch's online seminar with EdenRed</li>
-                    <li>Reached out to opted-in case studies for more information and defined a new approach with Holly in Customer Services to generate more</li>
-                    <li>Press meeting with James Andrews – Times Money Mentor, invites out for inaugural journalist event in October</li>
-                </ul>
-            </div>
-            
-            <div class="content-block">
-                <h3 class="section-title">✏️ Press Outreach</h3>
-                <ul>
-                    <li>Appearance on LBC talking about ebay's 30th Anniversary</li>
-                    <li>Appearance on BBC Radio Sheffield talking about the cost of university</li>
-                    <li>Tips on back to school savings</li>
-                    <li>Tips on ways to save in the Autumn</li>
-                    <li>Tips on managing your mental health on a budget</li>
-                    <li>Tips on what conversations you need to have with your partner before starting a family</li>
-                    <li>Direct requests from Press Association on how to manage financial support at uni</li>
-                    <li>Christmas campaign phase 1 – cost of Christmas shared with PA</li>
-                    <li>Comment on collapse of Bodycare on the high street</li>
-                    <li>Comment on the psychology of spending</li>
-                    <li>Comment on the percentage rule – a viral financial management technique</li>
-                    <li>Comment on the 50/30/20 rule</li>
-                    <li>Comment on why Amazon Fresh failed</li>
-                    <li>Comment on when you should stop giving your children an allowance</li>
-                    <li>Comment on the appropriateness of the DWP Festive £10 bonus</li>
-                </ul>
-            </div>
-            
-            <div class="content-block">
-                <h3 class="section-title">📰 Coverage Highlights</h3>
-                <a href="#" class="coverage-link">
-                    <span class="coverage-source">Telegraph/MSN</span>
-                    The 0.1% Spending rule
-                </a>
-                <a href="#" class="coverage-link">
-                    <span class="coverage-source">The Independent</span>
-                    Easing the cost of Christmas
-                </a>
-                <a href="#" class="coverage-link">
-                    <span class="coverage-source">I News</span>
-                    Why Amazon Fresh couldn't buy loyalty
-                </a>
-                <a href="#" class="coverage-link">
-                    <span class="coverage-source">The Independent</span>
-                    How to support your kids at university
-                </a>
-                <a href="#" class="coverage-link">
-                    <span class="coverage-source">The Sun</span>
-                    The six things money experts never waste their cash on
-                </a>
-            </div>
-            
-            <div class="content-block">
-                <h3 class="section-title">📅 October Plans</h3>
-                <p>Two proactive press releases + always on commentary for news agenda</p>
-                <ul>
-                    <li>Release 1 of xmas campaign: Cost of Christmas and engagement of BNPL</li>
-                    <li>Release 1 of Cashtastrophe campaign: How much do you actually need in your emergency pot based on real consumer insight</li>
-                    <li>Pub Quiz journalist event on 16th October</li>
-                    <li>Prolific pumpkins – quick release around the rising popularity of pumpkin patch visits and associated costs</li>
-                    <li>Press meetings with Vicky Shaw at Press Association and Rebecca Goodman, a national freelancer</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="brand-section">
+        <div class="brand-section" id="totallymoney">
             <div class="brand-header">
                 <h2 class="brand-name">™️ TotallyMoney ™️</h2>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">📝 Top Level</h3>
-                <p>Product landing page overhaul is in progress, with two going live this week (poor credit score cards, and balance transfers). This is a complete overhaul of all product pages.</p>
-                
-                <p style="margin-top: 1rem;">With Claude AI, and a structured approach, I'm able to create the content for each page in a matter of hours, which is human-written, avoiding the creation of AI slop.</p>
-                
-                <div style="margin: 2rem 0; text-align: center;">
-                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
-                        <img src="https://i.imgur.com/traffic-chart.png" alt="TotallyMoney Organic Traffic Performance" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                    </div>
-                    <p style="font-size: 0.9rem; color: #3A384B; margin-top: 0.5rem; font-style: italic;">Organic traffic and referring domains performance</p>
-                </div>
-                
-                <p style="margin-top: 1rem;">The chart above shows a 61% rise in websites linking to TotallyMoney (from 1,500 to 2,400) over the past two years. However, the volume in organic traffic has stayed relatively stable. A continued increase in links to the website and brand mentions through PR, coupled with a long overdue improvement in onsite content should result in better rankings, increased traffic, and more revenue.</p>
-                <p style="margin-top: 1rem;">In terms of coverage, it was a solid month with 230 mentions. There were several current account switch incentives which entered the market, so we capitalised on them, along with inflation comments and more.</p>
+                <ul>
+                    <li>Record month with almost 1,000 pieces of coverage (better try harder next time), largely down to numerous current account switch offers coming to market, and capitalizing on the medias love for them</li>
+                    <li>All credit card product pages completely rewritten and rebuilt with the aim of improving UX, UI, SEO on the SERPs, CTRs, CPAs, and overall ROMI</li>
+                    <li>Highlight for me was The FCA referencing our research in their car finance scandal report, good to be on the regulators radar for the right reasons</li>
+                </ul>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">✏️ Press Releases</h3>
+                <h3 class="section-title">✏️ Press Releases and Comments</h3>
                 <ul>
-                    <li>Co-Op CASS offer comment</li>
-                    <li>Lloyds CASS offer comment</li>
-                    <li>NatWest CASS offer comment</li>
-                    <li>Nationwide CASS offer comment</li>
-                    <li>Freshers' week credit score tips</li>
-                    <li>Five tips to make your airmiles go the distance</li>
+                    <li>SEVEN CASS offers press release</li>
+                    <li>Down-selling warning press release</li>
+                    <li>Five tips for getting the best personal loan deal press release</li>
+                    <li>Energy price cap/ savings comment</li>
+                    <li>Self-assessment registration deadline comment</li>
+                    <li>Tesco Mobile agreement ending comment</li>
+                    <li>Barclays CASS offer comment</li>
+                    <li>Lloyds credit builder card comment</li>
+                    <li>Zopa savings account comment</li>
+                    <li>Cold snap, switch providers (drafted not sent) comment</li>
+                    <li>No cold snap, but still switch comment</li>
                     <li>Inflation comment</li>
-                    <li>Inflation comment (follow-up)</li>
-                    <li>Launch of the longest balance transfer since 2022 w/ savings figures and tips</li>
-                    <li>Comment for Holly Mead (The Times) on FCA scrapping contactless limits</li>
-                    <li>Double CEO pitch (Ali and Jamie) Emily Hall at The Telegraph</li>
+                    <li>Santander current account offer comment</li>
+                    <li>Current Account Switch Service – analysis of figures press release</li>
+                    <li>Ofgem urging people to claim £240m comment</li>
+                </ul>
+            </div>
+            
+            <div class="content-block">
+                <h3 class="section-title">📞 Requests</h3>
+                <ul>
+                    <li>Energy saving myths: Harriet Cooke/ The Sun</li>
+                    <li>Credit scores: Tanyel Mustafa/ The Metro</li>
+                    <li>BNPL holidays: Harriet Cooke/ The Guardian</li>
+                    <li>Barclays CASS: Nicholas Dawson/ The Express</li>
+                    <li>Credit scores: Adele Cooke/ The Sun</li>
+                    <li>Balance transfers: Michael Brown/ The Sun</li>
                 </ul>
             </div>
             
             <div class="content-block">
                 <h3 class="section-title">📰 Coverage Highlights</h3>
-                <a href="https://www.dailyrecord.co.uk/lifestyle/money/five-ways-improve-credit-score-35943593" target="_blank" class="coverage-link">
-                    <span class="coverage-source">Daily Record</span>
-                    Five ways to improve your credit score to get better borrowing power
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Daily Mail</span>
+                    Credit cards now offer bumper interest-free periods of almost 3 years
                 </a>
-                <a href="https://www.express.co.uk/finance/personalfinance/2111376/lloyds-natwest-nationwide-first-direct-RBS-co-op-bank-switch-deal" target="_blank" class="coverage-link">
-                    <span class="coverage-source">The Express</span>
-                    6 banks offering up to £200 free cash in switching deals
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">The Independent</span>
+                    High street banks found to offer worse interest rates
                 </a>
-                
-                <div style="margin: 2rem 0; text-align: center;">
-                    <p style="margin-bottom: 1rem;">Research from earlier in the year which looked at the high cost of overdrafts was covered on BBC You and Yours.</p>
-                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
-                        <img src="https://i.imgur.com/bbc-you-and-yours.png" alt="BBC You and Yours Coverage" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                    </div>
-                </div>
-                
-                <div style="margin: 2rem 0; text-align: center;">
-                    <p style="margin-bottom: 1rem;">Jumping on the fact that four new CASS offers came onto the market in a week resulted in a half-pager in the Sunday Express.</p>
-                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
-                        <img src="https://i.imgur.com/sunday-express.png" alt="Sunday Express - Switch it up and cash in" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                    </div>
-                </div>
-                
-                <div style="margin: 2rem 0; text-align: center;">
-                    <p style="margin-bottom: 1rem;">Inbound request from Holly Mead resulted in a print mention in The Times.</p>
-                    <div style="background: #FFECF1; border-radius: 8px; padding: 1.5rem; display: inline-block; max-width: 100%;">
-                        <img src="https://i.imgur.com/the-times.png" alt="The Times - The risks and downsides of unlimited contactless" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                    </div>
-                </div>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">Express</span>
+                    Millions of mobile phone users urged to text 5-digit number to reduce bill
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">The Mirror</span>
+                    Change one credit card habit to improve your financial worthiness
+                </a>
+                <a href="#" target="_blank" class="coverage-link">
+                    <span class="coverage-source">The FCA</span>
+                    In its analysis of the impact of the car finance scandal, the regulator referenced a TotallyMoney press release which put a price on the impact of a poor credit score on the cost of a personal loan.
+                </a>
             </div>
             
             <div class="content-block">
-                <h3 class="section-title">📅 October Plans</h3>
-                <p>Continuing to work with Hyder and Ed, I'll be rewriting all content for the remaining landing pages, giving them a complete refresh:</p>
-                <ul>
-                    <li>Cashback cards</li>
-                    <li>Rewards cards</li>
-                    <li>Combo cards</li>
-                    <li>Travel cards</li>
-                    <li>All cards</li>
-                    <li>Homeowner loans</li>
-                    <li>Car finance loans</li>
-                    <li>All loans</li>
-                </ul>
-                <p style="margin-top: 1rem;">Press releases planned include:</p>
-                <ul>
-                    <li>New energy price cap</li>
-                    <li>Energy switching myths</li>
-                    <li>The benefits of purchase cards (now up to 25m 0%)</li>
-                    <li>The cost of overdraft borrowing</li>
-                    <li>Current Account Switch Service quarterly figures analysis</li>
-                </ul>
-                <p style="margin-top: 1rem;">Plus, the usual press commentary on financial news and product launches, and responding to any inbound requests.</p>
+                <h3 class="section-title">📅 November Plans</h3>
+                <p>On holiday for a chunk of November, leaving tomorrow, the 5th, and I'll return on 24th.</p>
             </div>
         </div>
 
-        <div class="summary-card" style="text-align: center; margin-top: 3rem;">
-            <p style="color: #3A384B; margin-bottom: 1rem;">Questions or feedback? Please get in touch with the PR team.</p>
+        <div class="summary-card" style="margin-top: 3rem; text-align: left;">
+            <h3 style="font-size: 1.5rem; font-weight: 700; color: #170F57; margin-bottom: 1rem;">Looking Ahead</h3>
+            <p style="margin-bottom: 1rem;">Beyond November, and moving into December and January, we will be finalising the positioning for each brand, and wrapping it into the Intelligent Lending story. That way, we'll have a clear outline of who we are, and why we do it. And we'll be in a better position when it comes to launching/ making Numero 'real'.</p>
+            <p style="margin-bottom: 1rem;">We will also roll out Binq's new tone of voice across the website, app, AI, CRM, and other marketing channels, while creating a content calendar which will cover the above and PR.</p>
+            <p style="margin-bottom: 1rem;">At the same time, we'll review what's gone well this year, what can be improved, what we'll repeat in 2026, and new things we'll be trying and be adding to the calendar.</p>
+            <p>This year has been about getting everything in order, and next year we'll focus on growing awareness for the group and the brands that sit within it.</p>
+        </div>
+        
+        <div class="summary-card" style="text-align: center; margin-top: 2rem;">
+            <p style="color: #3A384B; margin-bottom: 1rem;">Questions or feedback? Please get in touch with the PR and Content team.</p>
             <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center;">
-                <a href="mailto:alicia.boukersi@ocean.co.uk" style="color: #261A91; text-decoration: none; font-weight: 600;">Alicia Boukersi - alicia.boukersi@ocean.co.uk</a>
-                <a href="mailto:vix.leyton@thinkmoney.co.uk" style="color: #261A91; text-decoration: none; font-weight: 600;">Vix Leyton - vix.leyton@thinkmoney.co.uk</a>
                 <a href="mailto:jmccaffrey@totallymoney.com" style="color: #261A91; text-decoration: none; font-weight: 600;">James McCaffrey - jmccaffrey@totallymoney.com</a>
+                <a href="mailto:alicia.boukersi@ocean.co.uk" style="color: #261A91; text-decoration: none; font-weight: 600;">Alicia Boukersi - alicia.boukersi@ocean.co.uk</a>
+                <a href="mailto:eleanor.debruin@binq.co.uk" style="color: #261A91; text-decoration: none; font-weight: 600;">Eleanor de Bruin - eleanor.debruin@binq.co.uk</a>
             </div>
         </div>
     </div>
-    
+
     <script>
         const ctx = document.getElementById('prChart').getContext('2d');
         
         const data = {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'],
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October'],
             datasets: [
                 {
                     label: 'TotallyMoney',
-                    data: [104, 154, 575, 71, 34, 45, 48, 212, 230],
+                    data: [104, 154, 575, 71, 34, 45, 48, 212, 230, 976],
                     backgroundColor: '#1e3a8a',
                     borderColor: '#1e3a8a',
                     borderWidth: 0
                 },
                 {
                     label: 'Ocean',
-                    data: [103, 26, 344, 511, 26, 203, 121, 565, 236],
+                    data: [103, 26, 344, 511, 26, 203, 121, 565, 236, 298],
                     backgroundColor: '#0ea5e9',
                     borderColor: '#0ea5e9',
                     borderWidth: 0
                 },
                 {
                     label: 'CredAbility',
-                    data: [41, 26, 384, 70, 21, 33, 64, 32, 34],
+                    data: [41, 26, 384, 70, 21, 33, 64, 32, 34, 64],
                     backgroundColor: '#7c3aed',
                     borderColor: '#7c3aed',
                     borderWidth: 0
                 },
                 {
-                    label: 'binq',
-                    data: [0, 0, 0, 0, 0, 0, 0, 14, 2],
+                    label: 'Binq',
+                    data: [0, 0, 0, 0, 0, 0, 0, 14, 2, 4],
                     backgroundColor: '#10b981',
                     borderColor: '#10b981',
                     borderWidth: 0
                 },
                 {
-                    label: 'thinkmoney',
-                    data: [0, 0, 0, 0, 0, 0, 0, 0, 262],
-                    backgroundColor: '#3A5B8C',
-                    borderColor: '#3A5B8C',
-                    borderWidth: 0
-                },
-                {
                     label: 'Total',
-                    data: [248, 206, 1303, 652, 81, 281, 233, 823, 764],
+                    data: [248, 206, 1303, 652, 81, 281, 233, 823, 764, 1342],
                     type: 'line',
                     backgroundColor: 'transparent',
                     borderColor: '#f97316',
@@ -626,17 +712,6 @@
                     intersect: false,
                 },
                 plugins: {
-                    title: {
-                        display: true,
-                        text: '2025 Coverage',
-                        font: {
-                            size: 18,
-                            weight: 'bold'
-                        },
-                        padding: {
-                            bottom: 20
-                        }
-                    },
                     legend: {
                         position: 'bottom',
                         labels: {
@@ -674,7 +749,7 @@
                         display: true,
                         position: 'left',
                         beginAtZero: true,
-                        max: 700,
+                        max: 1000,
                         ticks: {
                             stepSize: 100,
                             font: {
@@ -690,7 +765,7 @@
                         display: true,
                         position: 'right',
                         beginAtZero: true,
-                        max: 1400,
+                        max: 1600,
                         ticks: {
                             stepSize: 200,
                             font: {
@@ -708,6 +783,147 @@
         };
 
         new Chart(ctx, config);
+
+        // Binq Carousel
+        (function() {
+            let binqSlideIndex = 0;
+            const binqTotalSlides = 3;
+            const binqCarousel = document.getElementById('binqCarousel');
+            const binqDotsContainer = document.getElementById('binqDotsContainer');
+            
+            for (let i = 0; i < binqTotalSlides; i++) {
+                const dot = document.createElement('span');
+                dot.style.cssText = 'width: 12px; height: 12px; border-radius: 50%; background: #928CC8; cursor: pointer; display: inline-block; transition: all 0.3s;';
+                dot.onclick = () => binqGoToSlide(i);
+                binqDotsContainer.appendChild(dot);
+            }
+            
+            const binqDots = binqDotsContainer.children;
+            
+            function binqUpdateSlide() {
+                binqCarousel.style.transform = `translateX(-${binqSlideIndex * 100}%)`;
+                for (let i = 0; i < binqDots.length; i++) {
+                    binqDots[i].style.background = i === binqSlideIndex ? '#261A91' : '#928CC8';
+                    binqDots[i].style.transform = i === binqSlideIndex ? 'scale(1.2)' : 'scale(1)';
+                }
+            }
+            
+            function binqNextSlide() {
+                binqSlideIndex = (binqSlideIndex + 1) % binqTotalSlides;
+                binqUpdateSlide();
+            }
+            
+            function binqPrevSlide() {
+                binqSlideIndex = (binqSlideIndex - 1 + binqTotalSlides) % binqTotalSlides;
+                binqUpdateSlide();
+            }
+            
+            function binqGoToSlide(index) {
+                binqSlideIndex = index;
+                binqUpdateSlide();
+            }
+            
+            document.getElementById('binqNextBtn').onclick = binqNextSlide;
+            document.getElementById('binqPrevBtn').onclick = binqPrevSlide;
+            
+            setInterval(binqNextSlide, 5000);
+            
+            binqUpdateSlide();
+        })();
+
+        // CredAbility Carousel
+        (function() {
+            let credSlideIndex = 0;
+            const credTotalSlides = 4;
+            const credCarousel = document.getElementById('credCarousel');
+            const credDotsContainer = document.getElementById('credDotsContainer');
+            
+            for (let i = 0; i < credTotalSlides; i++) {
+                const dot = document.createElement('span');
+                dot.style.cssText = 'width: 12px; height: 12px; border-radius: 50%; background: #928CC8; cursor: pointer; display: inline-block; transition: all 0.3s;';
+                dot.onclick = () => credGoToSlide(i);
+                credDotsContainer.appendChild(dot);
+            }
+            
+            const credDots = credDotsContainer.children;
+            
+            function credUpdateSlide() {
+                credCarousel.style.transform = `translateX(-${credSlideIndex * 100}%)`;
+                for (let i = 0; i < credDots.length; i++) {
+                    credDots[i].style.background = i === credSlideIndex ? '#261A91' : '#928CC8';
+                    credDots[i].style.transform = i === credSlideIndex ? 'scale(1.2)' : 'scale(1)';
+                }
+            }
+            
+            function credNextSlide() {
+                credSlideIndex = (credSlideIndex + 1) % credTotalSlides;
+                credUpdateSlide();
+            }
+            
+            function credPrevSlide() {
+                credSlideIndex = (credSlideIndex - 1 + credTotalSlides) % credTotalSlides;
+                credUpdateSlide();
+            }
+            
+            function credGoToSlide(index) {
+                credSlideIndex = index;
+                credUpdateSlide();
+            }
+            
+            document.getElementById('credNextBtn').onclick = credNextSlide;
+            document.getElementById('credPrevBtn').onclick = credPrevSlide;
+            
+            setInterval(credNextSlide, 5000);
+            
+            credUpdateSlide();
+        })();
+
+        // Ocean Carousel
+        (function() {
+            let oceanSlideIndex = 0;
+            const oceanTotalSlides = 3;
+            const oceanCarousel = document.getElementById('oceanCarousel');
+            const oceanDotsContainer = document.getElementById('oceanDotsContainer');
+            
+            for (let i = 0; i < oceanTotalSlides; i++) {
+                const dot = document.createElement('span');
+                dot.style.cssText = 'width: 12px; height: 12px; border-radius: 50%; background: #928CC8; cursor: pointer; display: inline-block; transition: all 0.3s;';
+                dot.onclick = () => oceanGoToSlide(i);
+                oceanDotsContainer.appendChild(dot);
+            }
+            
+            const oceanDots = oceanDotsContainer.children;
+            
+            function oceanUpdateSlide() {
+                oceanCarousel.style.transform = `translateX(-${oceanSlideIndex * 100}%)`;
+                for (let i = 0; i < oceanDots.length; i++) {
+                    oceanDots[i].style.background = i === oceanSlideIndex ? '#261A91' : '#928CC8';
+                    oceanDots[i].style.transform = i === oceanSlideIndex ? 'scale(1.2)' : 'scale(1)';
+                }
+            }
+            
+            function oceanNextSlide() {
+                oceanSlideIndex = (oceanSlideIndex + 1) % oceanTotalSlides;
+                oceanUpdateSlide();
+            }
+            
+            function oceanPrevSlide() {
+                oceanSlideIndex = (oceanSlideIndex - 1 + oceanTotalSlides) % oceanTotalSlides;
+                oceanUpdateSlide();
+            }
+            
+            function oceanGoToSlide(index) {
+                oceanSlideIndex = index;
+                oceanUpdateSlide();
+            }
+            
+            document.getElementById('oceanNextBtn').onclick = oceanNextSlide;
+            document.getElementById('oceanPrevBtn').onclick = oceanPrevSlide;
+            
+            setInterval(oceanNextSlide, 5000);
+            
+            oceanUpdateSlide();
+        })();
     </script>
 </body>
 </html>
